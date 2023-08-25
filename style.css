@@ -1,0 +1,13 @@
+.cart-item{
+    display : flex ; 
+}
+.cart-item img{
+width: 10%;}
+
+.productss {
+    display:flex;
+}
+.productss img {
+    border-radius: 10px;
+    width: 10%;
+}

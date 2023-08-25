@@ -1,0 +1,69 @@
+ALGORITHM algorithm_name
+VAR
+    number : INTEGER ;
+    num : INTEGER;
+    nom,prenom : STRING ;
+    verify : BOOLEAN ;
+
+BEGIN
+    number := 10 ;
+    prenom := "Bocoum" ;
+    nom := "Adiouma"
+    verify := true 
+    nbr_caract
+
+END 
+prenom = ["B","o","c","o","u",'m']
+sentc ="bonjoir bocoum bieuvenu à gomycode."
+prenom.length => 6
+
+tab= [1,22,331,65]
+      0 1   2   3
+1+1
+22+1
+331+1
+65+1
+FOR i FROM 0 TO tab.length-1 STEP 1  DO
+    tab[i] = tab[i] +1 
+END_FOR
+
+FOR i FROM 0 TO tab1.length-1 STEP 1  DO
+    Write("Donnez l'element du tableau 1 à la position :", i)
+    Read(tab[i])
+END_FOR
+FOR j FROM 0 TO tab2.length-1 STEP 1  DO
+    Write("Donnez l'element du tableau 2 à la position :", j)
+    Read(tab[j])
+END_FOR
+
+tab1 = [1,12,32,45,66,12,5,32,45,77,45,99]
+tab2 =[12,5,32,45,77,45,99]
+
+1+66+5+77+99
+
+FOR i FROM 0 TO tab1.length-1 STEP 1  DO
+    FOR j FROM 0 TO tab2.length-1 STEP 1   DO
+        IF (tab1[i]=== tab2[j] ) THEN
+            Break ;
+        END_IF
+        sum_distinct = sum_distinct + tab1[i]
+    END_FOR
+END_FOR
+
+FUNCTION tri(tab) : tab : ARRAY_OF type[length];
+VAR
+    set_declarations
+BEGIN
+    pivot = tab[tab.length-1]
+gauche = []
+droite=[]
+FOR i FROM 0 TO tab.length-1 STEP 1  DO
+    IF (tab[i] <= pivot) THEN
+        gauche.push(tab[i])
+    ELSE 
+        droite.push(tab[i])
+    END_IF
+END_FOR
+RETURN gauche.concat(pivot).concat(gauche)
+
+END
